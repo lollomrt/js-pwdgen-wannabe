@@ -12,9 +12,8 @@ console.log(colore_preferito)
 
 //4 Definire la variabile risultato
 
-let password = nome + cognome + colore_preferito + 21;
+let password = "Password:" + " " + nome + cognome + colore_preferito + 21;
 console.log(password)
 
 //5 Mostrare il risultato visivamente
-
-document.getElementById(testo-password).innerHTML = "password"
+document.getElementById("testo-password").innerHTML = password;
